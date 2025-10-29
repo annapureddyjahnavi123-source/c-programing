@@ -1,0 +1,23 @@
+#include<stdio.h>
+int main ()
+{
+int a,b,c,t,per;
+printf("enter a,b,c values");
+scanf("%d%d%d",&a,&b,&c);
+t=a+b+c;
+per=t/3;
+if(a>=40&&b>=40&&c>=40)
+{
+if(per>=90)
+printf("a");
+else if(per>=70)
+printf("b");
+else if(per>=50)
+printf("c");
+else if(pre>=40)
+printf("d");
+}
+else
+printf("failed");
+return 0;
+}
