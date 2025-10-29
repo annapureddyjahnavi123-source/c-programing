@@ -4,7 +4,7 @@ int main ()
 float p,r,t,si;
 printf("enter p&r&t values::");
 scanf(%f%f%f",&p,&r,&t);
-si=p*t*r/100
+si=p*t*r/100;
 printf("enter simple interest value is=%f",si);
 return 0;
 }
