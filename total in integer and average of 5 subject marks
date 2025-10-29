@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main ()
+{
+int S1,S2,S3,S4,S5,total;
+float average;
+printf("enter S1&S2&S3&S4&S5 values");
+scanf("%d%d%d%d%d",&S1,&S2,&S3,&S4,&S5);
+total=S1+S2+S3+S4+S5
+printf("total=%d",total);
+average=total/5;
+printf("\n average=%f",average);
+return 0;
+}
