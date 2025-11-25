@@ -10,7 +10,7 @@ int main()
 	scanf("%s",&s2);
 	for(i=0;s1[i]!='\0';i++);
 	l=i;
-	for(i=0;s2[i]!='\0';i++);
+	for(i=0;s2[i]!='\0';i++)
 	{
 		s1[l++]=s2[i];
 	}
@@ -18,3 +18,4 @@ int main()
 	printf("merge string=%s",s1);
 	return 0;
 }
+
